@@ -17,6 +17,12 @@ pipeline{
             echo 'this is stage 3'
             }
         }
+        stage('stage 4'){
+            steps{
+            echo 'this is stage 3'
+            sh 'pwd'
+            }
+        }
      }
 }
-pwd
+
